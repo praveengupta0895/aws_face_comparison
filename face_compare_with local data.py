@@ -1,6 +1,5 @@
 import boto3
-from pprint import pprint
-import image_helpers
+
 
 sourceFile = 'images/obama.jpg'           #sourceFile,targetFile will contain the path of the image stored locally
 targetFile = 'images/obama2.jpg'
