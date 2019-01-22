@@ -2,7 +2,7 @@ import boto3
 
 
 def face_comparision():
-    client = boto3.client('rekognition','ap-south-1')   #ap-south-1 will be the region of your bucket database
+    client = boto3.client('rekognition','ap-south-1')   #ap-south-1 will be the region of your database bucket
     response = client.compare_faces(
         SourceImage={
             'S3Object': {
